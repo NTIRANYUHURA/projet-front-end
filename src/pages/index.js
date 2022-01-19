@@ -6,6 +6,7 @@ import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
+import Gallerie from"../components/Gallerie"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Navbar, Nav  } from "react-bootstrap"
 import SocialLinks from "../constants/socialLinks"
@@ -13,6 +14,7 @@ import SocialLinks from "../constants/socialLinks"
 export default () => {
   return <Layout>
     <Hero/>
+    <Gallerie/>
   </Layout>
   
 

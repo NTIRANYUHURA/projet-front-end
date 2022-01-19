@@ -14,7 +14,7 @@ const Navbar = () => {
       <Nav.Link href="/home">Accueil</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-1">Gallerie</Nav.Link>
+      <Nav.Link href="/gallerie">Gallerie</Nav.Link>
     </Nav.Item>
     <Nav.Item>
       <Nav.Link eventKey="link-2">Tarifs et spécifications</Nav.Link>
